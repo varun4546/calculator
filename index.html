@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Calculator - Bugra Aydingoz</title>
+    <!-- Style Sheets -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="calculator">
+      <div class="screen">
+        <div class="screen-text">
+          <p id="screen">0</p>
+        </div>
+        <div class="screenhistory-text">
+          <p id="history">0</p>
+        </div>
+      </div>
+      <div class="buttons">
+        <!-- First row -->
+        <div class="btn btn-op" id="ac">
+          <div class="btn-text">AC</div>
+        </div>
+        <div class="btn btn-op" id="c">
+          <div class="btn-text">C</div>
+        </div>
+        <div class="btn btn-op" id="percent">
+          <div class="btn-text">%</div>
+        </div>
+        <div class="btn btn-op" id="divide">
+          <div class="btn-text">/</div>
+        </div>
+
+        <!-- Second row -->
+        <div class="btn btn-num" id="seven">
+          <div class="btn-text">7</div>
+        </div>
+        <div class="btn btn-num" id="eight">
+          <div class="btn-text">8</div>
+        </div>
+        <div class="btn btn-num" id="nine">
+          <div class="btn-text">9</div>
+        </div>
+        <div class="btn btn-op" id="multiple">
+          <div class="btn-text">*</div>
+        </div>
+
+        <!-- Third row -->
+        <div class="btn btn-num" id="four">
+          <div class="btn-text">4</div>
+        </div>
+        <div class="btn btn-num" id="five">
+          <div class="btn-text">5</div>
+        </div>
+        <div class="btn btn-num" id="six">
+          <div class="btn-text">6</div>
+        </div>
+        <div class="btn btn-op" id="minus">
+          <div class="btn-text">-</div>
+        </div>
+
+        <!-- Fourth row -->
+        <div class="btn btn-num" id="one">
+          <div class="btn-text">1</div>
+        </div>
+        <div class="btn btn-num" id="two">
+          <div class="btn-text">2</div>
+        </div>
+        <div class="btn btn-num" id="three">
+          <div class="btn-text">3</div>
+        </div>
+        <div class="btn btn-op" id="plus">
+          <div class="btn-text">+</div>
+        </div>
+
+        <!-- Fifth row -->
+        <div class="btn btn-zero" id="zero">
+          <div class="btn-text">0</div>
+        </div>
+        <div class="btn btn-num" id="comma">
+          <div class="btn-text">,</div>
+        </div>
+        <div class="btn btn-op" id="eq">
+          <div class="btn-text">=</div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        Made by Bugra Aydingoz with
+        <i class="fa fa-heart" aria-hidden="true"></i>
+      </p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

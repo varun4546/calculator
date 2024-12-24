@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    width: 100%;
+    height: 100%;
+}
+
+.calculator {
+    margin: 20px auto;
+    width: 330px;
+    height: 500px;
+    border: 1px solid #454A4C;
+    border-radius: 4px;
+}
+
+.screen {
+    position: relative;
+    width: 100%;
+    height: 25%;
+    color: #FFF;
+    background-color: #454A4C;
+}
+
+.buttons {
+    position: relative;
+    width: 100%;
+    height: 75%;
+    margin: 0;
+    background-color: rgb(151, 152, 153);
+}
+
+.btn {
+    position: relative;
+    outline: 1px solid rgb(151, 152, 153);
+    width: 25%;
+    height: 20%;
+    margin-right: -4px;
+    margin-bottom: -4px;
+    display: inline-block;
+}
+
+.btn-num {
+    color: #000;
+    background-color: hsl(200, 14%, 91%);
+}
+
+.btn-zero {
+    width: 50%;
+    color: #000;
+    background-color: hsl(200, 14%, 91%);
+}
+
+.btn-zero:hover,
+.btn-num:hover {
+    background-color: hsl(192, 5%, 80%);
+}
+
+.btn-op {
+    color: #FFF;
+    background-color: #FFB61D;
+}
+
+.btn-op:hover {
+    background-color: #d99b19;
+}
+
+.btn-text {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.screen-text {
+    position: absolute;
+    bottom: 75%;
+    right: 5%;
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    font-size: 85px;
+}
+
+.screenhistory-text {
+    position: absolute;
+    top: 60%;
+    right: 5%;
+    width: 100%;
+    text-align: right;
+    font-size: 14px;
+}
+
+footer {
+    text-align: center;
+    margin: 20px auto 20px auto;
+    font-size: 12px;
+}
